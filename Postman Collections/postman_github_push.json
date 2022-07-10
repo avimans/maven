@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "0d46eb4d-cb6f-46d9-a5b6-39f30b66defa",
+		"name": "case study",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "baseuri",
+			"_postman_id": "b01b509a-5715-4eb1-b63c-dda9b78deca0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "?baseurui=https://ecommerceservice.herokuapp.com/",
+					"query": [
+						{
+							"key": "baseurui",
+							"value": "https://ecommerceservice.herokuapp.com/",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
